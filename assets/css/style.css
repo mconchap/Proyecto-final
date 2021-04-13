@@ -18,3 +18,17 @@ body * {
 .card {
 	background-color: #2ca2bb;
 }
+
+.card-img-top {
+	height: 200px;
+}
+.separador {
+	border-bottom: solid 2px #2ca2bb;
+}
+
+.icono {
+	height: 40px;
+	background-color: #2ca2bb;
+	text-align: center;
+    padding-top: 8px;
+}
