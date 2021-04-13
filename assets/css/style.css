@@ -15,7 +15,7 @@ body * {
 	width: 60px;
 }
 
-.card {
+.card, .celeste {
 	background-color: #2ca2bb;
 }
 
@@ -31,4 +31,12 @@ body * {
 	background-color: #2ca2bb;
 	text-align: center;
     padding-top: 8px;
+}
+
+#somos, #destacadas {
+	margin-bottom: 100px;
+}
+
+.celeste i{
+	padding: 0 5px;
 }
