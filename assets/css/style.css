@@ -43,3 +43,7 @@ body * {
 .celeste i{
 	padding: 0 5px;
 }
+
+.modal {
+	color: dimgray;
+}

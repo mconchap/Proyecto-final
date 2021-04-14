@@ -1,4 +1,12 @@
 $(function(){
+	// Tooltip
+	$('[data-toggle="tooltip"]').tooltip()
+	
+	// Modal
+	$('#myModal').on('shown.bs.modal', function () {
+  		$('#myInput').trigger('focus')
+	})
+	
  // Smooth
 	$("a").on('click', function(event) {
     if (this.hash !== "") {
